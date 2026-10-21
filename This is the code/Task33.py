@@ -2,9 +2,9 @@ import random
 
 score = 0
 
-for i in range(5):
+for item in range(5):
     number = random.randint(0, 100)
-    guess = int(input("Round " + str(i + 1) + " - guess a number between 0 and 100: "))
+    guess = int(input("Round " + str(item + 1) + " - guess a number between 0 and 100: "))
 
     difference = abs(guess - number)
 

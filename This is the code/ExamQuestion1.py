@@ -1,3 +1,7 @@
+# Ask the user to input the height of the rider, in centimetres.
+# If needed, ask if they are riding with an adult.
+# Outputs whether or not they are allowed to ride.
+# Repeats this process until 8 people have been allowed to ride.
 count = 0
 while count <= 8:
     height = float(input("Enter your height: "))
