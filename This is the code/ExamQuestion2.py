@@ -3,11 +3,15 @@
 # Calculate and output the total price​.
 # Repeat continually until the user enters 0 hours.​
 
+hours = -1
 while hours != 0:
+    hours = int(input("Enter the number of hours parked (0 to exit): "))
+    if hours == 0:
+        break
     hours = hours * 4
     electric_car = input("Is your car electric? (yes or no): ")
     if electric_car.lower() == "yes":
         price = hours / 2
-    else:
+    elif electric_car.lower() == "no":
         price = hours
     print(f"The total price is £{price}")
