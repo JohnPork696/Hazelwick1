@@ -3,7 +3,6 @@
 # Calculate and output the total price​.
 # Repeat continually until the user enters 0 hours.​
 
-hours = int(input("Enter the number of hours parked (0 to exit): "))
 while hours != 0:
     hours = hours * 4
     electric_car = input("Is your car electric? (yes or no): ")
