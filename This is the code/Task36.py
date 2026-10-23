@@ -3,6 +3,7 @@
 # Let the user know if their guess was too high or too low.​
 # End the loop when they either guess correct (win) or use up 10 attempts (lose).​
 # Tell them if they won or lost.​
+
 import random
 
 number = random.randint(1, 100)

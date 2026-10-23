@@ -2,6 +2,7 @@
 # Add the number to a running total.​
 # Repeat the above steps until the total is 100 or more.​
 # Output the final total.​
+
 total = 0
 while total < 100:
     num = int(input("Enter a whole number: "))
